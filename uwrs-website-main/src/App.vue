@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img id="logo" src="./assets/logo - colour.svg">
+    <ul id="navbar">
+      <li>About Us</li>
+      <li>Projects/Events</li>
+      <li>For Sponsors</li>
+      <li>Sign Up</li>
+    </ul>
     <router-view/>
   </div>
 </template>
@@ -19,5 +25,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#logo{
+  width: 500px;
 }
 </style>
