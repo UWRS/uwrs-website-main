@@ -1,15 +1,12 @@
 <template>
   <div id="app">
     <img id="logo" src="./assets/logo - colour.svg">
-    <ul id="navbar">
-      <li>About Us</li>
-      <li>Projects/Events</li>
-      <li>For Sponsors</li>
-      <li>Sign Up</li>
-    </ul>
-    <v-btn
-  elevation="2"
-></v-btn>
+    <div id="navbar">
+      <v-btn>About Us</v-btn>
+      <v-btn>Projects/Events</v-btn>
+      <v-btn>For Sponsors</v-btn>
+      <v-btn>Sign Up</v-btn>
+    </div>
     <router-view/>
   </div>
 </template>
