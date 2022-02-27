@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img id="logo" src="./assets/logo - colour.svg">
+    <img id="logo" src="./assets/logo/logo - colour.svg">
     <div id="navbar">
       <v-btn>About Us</v-btn>
       <v-btn>Projects/Events</v-btn>
