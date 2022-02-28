@@ -59,7 +59,5 @@ export default {
 
 <style scoped>
 .mainbody{
-  width:50%;
-  margin: auto;
 }
 </style>
