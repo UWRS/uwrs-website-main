@@ -1,18 +1,20 @@
 <template>
+<v-app><v-main>
   <div id="app">
-    <div id="logosection">
+    <div id="logosection" class="pb-5 pt-5">
       <img id="logo" src="./assets/logo/logo - colour.svg">
       <p>Hub for University of Warwick hardware hobbyists from across all disciplines.</p>
       <p>Making robotics accessible to everyone.</p>
     </div>
-    <div id="navbar">
-      <v-btn>About Us</v-btn>
-      <v-btn>Projects/Events</v-btn>
-      <v-btn>For Sponsors</v-btn>
-      <v-btn>Sign Up</v-btn>
+    <div id="navbar" class="pb-5">
+      <v-btn href="/">About Us</v-btn>
+      <v-btn href="/">Projects/Events</v-btn>
+      <v-btn href="/">For Sponsors</v-btn>
+      <v-btn href="/JoinUs">Sign Up</v-btn>
     </div>
     <router-view/>
   </div>
+  </v-main></v-app>
 </template>
 
 <script>
@@ -23,17 +25,14 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 
 #logo{
   width: 500px;
 }
 
+#logosection{
 
+}
 </style>
